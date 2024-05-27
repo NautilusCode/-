@@ -1,0 +1,160 @@
+/* #menu {
+    border: solid 1px;
+    width: 20%;
+    height: 200px;
+} */
+html {
+    background-color: antiquewhite;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#back_img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#copyright {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+#mainwindow {
+    /* width: 600px;
+    height: 400px; */
+    border: solid 1px;
+    background-color: antiquewhite;
+}
+
+#customer {
+    /* width: 200px;
+    height: 400px; */
+    border: solid 1px;
+    background-color: antiquewhite;
+}
+
+#main {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: 5%;
+    margin-top: 1%;
+    /* scale: 90%; */
+}
+
+#timer {
+    float: none;
+    width: fit-content;
+}
+
+#con {
+    float: left;
+}
+
+#playarea {
+    float: left;
+}
+
+#neta button {
+    width: 150px;
+    height: 70px;
+    margin-top: 5px;
+    font-size: large;
+}
+
+#neta {
+    width: fit-content;
+}
+
+#go {
+    width: 384px;
+    height: 100px;
+    background-color: lightpink;
+    font-size: x-large;
+}
+
+#reset {
+    width: 384px;
+    height: 100px;
+    background-color: paleturquoise;
+    font-size: x-large;
+}
+
+#menu {
+    margin-left: 6px;
+    float: none;
+    text-align: center;
+    border: solid 1px;
+    background-color: antiquewhite;
+}
+
+#cancon {
+    margin-left: 5px;
+    float: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+#command {
+    width: fit-content;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#MAguro {
+    background-color: #FF978F;
+}
+
+#KYuuri {
+    background-color: #8FFFA5;
+}
+
+#IKura {
+    background-color: #FFA768;
+}
+
+#KAnpyou {
+    background-color: #bea48c;
+}
+
+#TAmago {
+    background-color: #FFEB89;
+}
+
+#TAi {
+    background-color: #FFE9D8;
+}
+
+#EBi {
+    background-color: #FFCCA5;
+}
+
+#Samon {
+    background-color: #f9b587;
+}
+
+#SAkuradenbu {
+    background-color: #FFB3E4;
+}
+
+#WAsabi {
+    background-color: #CEFFA3;
+}

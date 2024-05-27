@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>スーパー巻き寿司職人</title>
+    <link rel="stylesheet" href="ingame.css">
+    <script type="text/javascript" src="gamecore.js">
+    </script>
+</head>
+
+<body><img src="wood_bg.jpg" alt="木目" id="back_img">
+    <div id="main">
+        <h1>スーパー巻き寿司職人</h1>
+        <h3>Created by YirgaChefe</h3>
+        <div id="con">
+            <div id="playarea">
+
+                <canvas id="customer" width="200px" height="400px"></canvas>
+                <canvas id="mainwindow" width="600px" height="400px">
+                </canvas>
+            </div>
+            <div id="ingredients">
+                <span id="timer">残り時間  1:30</span>
+                <span id="correct_counter">熟練ポイント  0</span>
+                <div id="neta">
+                    <button id="MAguro" onclick="Maguro()">まぐろ</button>
+                    <button id="KYuuri" onclick="Kyuuri()">きゅうり</button>
+                    <button id="IKura" onclick="Ikura()">いくら</button>
+                    <button id="TAmago" onclick="Tamago()">たまご</button>
+                    <button id="EBi" onclick="Ebi()">えび</button>
+                    <br>
+                    <button id="SAmon" onclick="Samon()">サーモン</button>
+                    <button id="TAi" onclick="Tai()">たい</button>
+                    <button id="KAnpyou" onclick="Kanpyou()">かんぴょう</button>
+                    <button id="SAkuradenbu" onclick="Sakuradenbu()">桜でんぶ</button>
+                    <button id="WAsabi" onclick="Wasabi()">わさび</button>
+                </div>
+                <br>
+                <div id="command">
+                    <!-- <button id="go1" class="center" onclick="open()">開店</button> -->
+                    <button id="go" class="center" onclick="Open()">営業開始(音が出ます)</button>
+                    <button id="reset" class="center" onclick="Open2()">ホームに戻る</button>
+                </div>
+            </div>
+        </div>
+        <canvas id="menu" width="400px" height="705px">
+        </canvas>
+        <div id="cancon">
+        </div>
+        <p>使用素材 画像素材:いらすとや 音楽素材:DOVA-SYNDROME,効果音ラボ</p>
+        <p id="copyright">©YirgaChefe - Sorachi Nishibori &amp; Towa Matsuzawa 2024</p>
+        <!--<p id="copyright">Copyright ©YirgaChefe - Sora_339 &amp; Towakun887 2024</p>-->
+    </div>
+</body>
+
+</html>
